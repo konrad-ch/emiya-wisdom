@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html> <!--<![endif]-->
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta charset="utf-8"/>
+    <meta name="description" content="Emiya wisdom">
+    <meta name="author" content="Elenthar">
+
+    <title>Emiya-Wisdom - get smart with Shirou Emiya!</title>
+	<link rel="icon" type="image/ico" href="fav.ico"/>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	<link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700" rel="stylesheet" type="text/css">
+
+    <!--[if lt IE 9]>
+	    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	<script>
+		function reloadWisdom() {
+			img = document.getElementById("imgEmiya");
+			img.src="emiya.png?" + new Date().getTime();
+		}		
+	</script>
+</head>
+
+<body>
+
+<div id="container">
+	<div id="divEmiya">
+		<img id="imgEmiya" src="emiya.png">
+		<a href="javascript:void(0);" onClick="reloadWisdom()">Need more wisdom, Sensei!</a>	
+	</div>
+</div>
+
+</body>
+
+</html>
