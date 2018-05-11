@@ -2,6 +2,9 @@
 
 Get yourself enlightened by Shirou Emiya great wisdom!
 
+#### DEMO
+http://emiya-wisdom.myartsonline.com/
+
 #### Installation
 Copy all files from public folder to your server.
 
